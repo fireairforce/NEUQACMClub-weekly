@@ -9,7 +9,7 @@
 
 - 先fork到你自己的github仓库那边，然后在对应的文件夹下面添加自己的周报文件(xxx.md),添加完成周报之后，发送pull requests到 [fireairforce](https://github.com/fireairforce/NEUQACMClub-weekly) 这边的仓库.(具体见ACM技术部第二次培训)
 
-- 周报对应的文件夹比如:wd属于第七组，然后本周日的时间为2018-10-28,那么我做就会在仓库的"第七组" **文件夹** 目录下面的"2018-10-28"的 **文件夹** 下面建立名字为"吴东 2018-10-28.md"的markdown **文件**.然后具体的周报内容我们可以通过vscode先编辑好自己将markdown内容复制粘贴过来.
+- 周报对应的文件夹比如:wd属于第七组，然后本周日的时间为2018-10-28,那么我做就会在仓库的"第七组" **文件夹** 目录下面的"2018-10-28"的 **文件夹** 下面建立名字为"吴东 10-28.md"的markdown **文件**.然后具体的周报内容我们可以通过vscode先编辑好自己将markdown内容复制粘贴过来.
 
 ---
 
@@ -57,5 +57,5 @@
 
 ---
 ## Designed by NEUQACM 技术部
-- 2018-10-22 
+- zoomdong: [github地址](https://github.com/fireairforce) 
 
