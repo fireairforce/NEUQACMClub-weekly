@@ -57,5 +57,6 @@
 
 ---
 ## Designed by NEUQACM 技术部
-- zoomdong: [github地址](https://github.com/fireairforce) 
+- zoomdong: [github地址](https://github.com/fireairforce)
+- ailpf: [github地址](https://github.com/YYL1999) 
 
