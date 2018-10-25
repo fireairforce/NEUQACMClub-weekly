@@ -153,7 +153,7 @@ star按钮的意思为收藏项目的人数,如果你对一个项目进行了sta
    - 然后在指定目录下创建自己的周报文件(注意是.md格式的文件)
    - 编辑完成自己的周报之后进行进行本地的保存
    - 发送pull requests到周报的本地仓库
-- Follow技术部学长学姐的github账号(例如fireairforce,ailpf)
+- Follow技术部学长学姐的github账号(例如fireairforce,YYL1999)
    - 这个教程里面没有写，算是交给大家的一个自学任务. 
 
 ## 注意事项
