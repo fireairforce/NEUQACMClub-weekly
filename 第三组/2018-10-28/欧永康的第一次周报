@@ -1,0 +1,120 @@
+# **欧永康的小窝** #
+
+## 电信20189138 5班 欧永康作 ##
+
+————————————————————————————————————————————————————————————
+
+### 本周完成 ###
+1. 掌握指针的的用法。
+2. 了解iterator的使用方法
+3. 了解vector。set map.quene stack
+4. 完成《鸿雁》。
+5. 1000米跑185s内完成。
+6. 参加虚拟综合实训
+
+
+————————————————————————————————————————————————————
+下周计划
+1.完成ACM作业
+2.国庆作业完成3题。
+3.准备半期，四级。
+4.，，，，，，，
+----------------------------------------------------------------------
+在使用前需包含#include<vector>
+
+Vector是一个容器，可动态的改变大小的容器，且可以存放各种类型的数据。
+
+
+
+使用方法如右图，vector<  类型名  >   名称；
+它可以像普通数组一样访问，也可以顺序填充数据。
+
+                                  还可以改变大小，通过左来实现，
+
+
+       
+
+
+
+
+C++提供了如下的操作
+
+
+       
+
+
+
+
+C++ erase函数 用法
+
+ 
+此操作可赋/////////////////////////////////这个里面本来还有很多图的，下次放上哈
+Find()查找第一次出现的字符串
+查找从指定位置开始的字符串位置
+Find_first_of与find_last_of
+从字符的前/后向前搜索
+3)插入元素，在pos处插入一个elem
+Vec.insert(pos,elem)
+4)删除pos 处的函数
+Vec.erase(pos)
+5)删除[begin,end )的元素
+Vec。Erase(begin,end)
+6)向量大小
+Vec.size();
+7)清空
+Vec.clear();
+8)传回第一个数据
+vec.front()
+9）删除最后一个元素
+vec.pop_back()
+10）尾部插入数据
+vec.push_back(elem)
+11）重新设置该容器的大小
+vec.resize(num)
+4、删除vector中的重复元素
+    vector<int> a={1, 4, 4, 3, 2, 4, 2};
+    sort(a.begin(), a.end());
+    vector<int>::iterator it = unique(a.begin(), a.end());
+    a.erase(it, a.end());
+释放vector内存
+即先创建一个临时拷贝与原先的vector一致，值得注意的是，此时的拷贝其容量是尽可能小的符合所需数据的。紧接着将该拷贝与原先的vector v进行交换。好了此时，执行交换时，临时变量会被销毁，内存得到释放。此时的v即为原先的临时拷贝，而交换后的临时拷贝则为容量非常大的vector（不过已经被销毁）
+Map是STL的一个关联容器，它提供一对一（其中第一个可以称为关键字，每个关键字只能在map中出现一次，第二个可能称为该关键字的值）的数据 处理能力，由于这个特性，它完成有可能在我们处理一对一数据的时候，在编程上提供快速通道。这里说下map内部数据的组织，map内部自建一颗红黑树(一 种非严格意义上的平衡二叉树)，这颗树具有对数据自动排序的功能，所以在map内部所有的数据都是有序的，
+
+1、map简介
+map是一类关联式容器。它的特点是增加和删除节点对迭代器的影响很小，除了那个操作节点，对其他的节点都没有什么影响。
+对于迭代器来说，可以修改实值，而不能修改key。
+2、map的功能
+自动建立Key － value的对应。key 和 value可以是任意你需要的类型。
+根据key值快速查找记录，查找的复杂度基本是Log(N)，如果有1000个记录，最多查找10次，1,000,000个记录，最多查找20次。
+快速插入Key -Value 记录。
+快速删除记录
+根据Key 修改value记录。
+遍历所有记录。
+3、使用map
+使用map得包含map类所在的头文件
+#include <map>  //注意，STL头文件没有扩展名.h
+map对象是模板类，需要关键字和存储对象两个模板参数：
+std:map<int,string> personnel;
+这样就定义了一个用int作为索引,并拥有相关联的指向string的指针.
+为了使用方便，可以对模板类进行一下类型定义，
+typedef map<int,CString> UDT_MAP_INT_CSTRING;
+UDT_MAP_INT_CSTRING enumMap;//////////////////////////////////
+4、       map的构造函数
+map<int, string> mapStudent;
+5、     数据的插入
+三种插入数据的方法：
+第一种：用insert函数插入pair数据，
+第二种：用insert函数插入value_type数据
+第三种：用数组方式插入数据
+#include<bits/stdc++.h>
+using namespace std; 
+int main() 
+{
+vector<char> ivec;
+ivec.push_back('A');
+ivec.push_back('C');
+ivec.push_back('M');
+for(vector<int>::iterator iter = ivec.begin();1. iter != ivec.end(); ++iter)
+cout << *iter << endl;
+}
+
